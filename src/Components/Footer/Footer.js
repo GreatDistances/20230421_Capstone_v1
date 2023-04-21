@@ -2,7 +2,11 @@ import "./Footer.css";
 
 const Footer = (props) => {
   return (
-    <div>MovieDL 4811 Delmar Blvd, St. Louis, MO 63108 (314) 254-0107</div>
+    <div className="footer">
+      <p>MovieDL &#8195;</p>
+      <p>4811 Delmar Blvd, St. Louis, MO 63108 &#8195;</p>
+      <p>(314) 254-0107 &#8195;</p>
+    </div>
   );
 };
 
