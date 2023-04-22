@@ -1,15 +1,14 @@
-import FeaturedMovie from './FeaturedMovie.js';
+import FeaturedMovie from "./FeaturedMovie.js";
 import "./FeaturedMovies.css";
 
-const FeaturedMovies = props => {
-    return (
-        <div>
-            <FeaturedMovie />
-            <FeaturedMovie />
-            <FeaturedMovie />
-            <button>Browse All Titles</button>
-        </div>
-    );
+const FeaturedMovies = (props) => {
+  return (
+    <div>
+      <div>
+        <h1>Featured Movies</h1>
+      </div>
+    </div>
+  );
 };
 
 export default FeaturedMovies;

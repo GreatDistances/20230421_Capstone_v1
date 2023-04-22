@@ -1,13 +1,14 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #ffcc00;
   overflow: hidden;
+  position: sticky; top: 0
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #232323;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,6 +25,35 @@
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
+}
+
+.search {
+  float: left;
+  color: gray;
+  text-align: left;
+  text-decoration: none;
+  padding: 12px 10px;
+  font-size: 17px;
+}
+
+.genre-select {
+  float: left;
+  color: gray;
+  text-align: left;
+  vertical-align:middle;
+  text-decoration: none;
+  padding: 12px 8px;
+  font-size: 17px;
+}
+
+.go-button {
+  float: left;
+  color: gray;
+  text-align: left;
+  vertical-align:middle;
+  text-decoration: none;
+  padding: 12px 8px;
+  font-size: 17px;
 }
 
 /* Right-aligned section inside the top navigation */

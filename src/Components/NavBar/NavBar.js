@@ -3,12 +3,20 @@ import "./NavBar.css";
 const NavBar = (props) => {
   return (
     <div className="topnav">
-      <div className="topnavbrand">
+      <div>
         <a href="/index">MovieDL</a>
       </div>
       <div className="topnav-right">
-        <a href="/search" className="topnav-right">
-          Search
+        <input className="search"
+          type="text"
+          value="Search"
+          onFocus={(e) => (e.target.value = "")}
+          onBlur={(e) => (e.target.value = "Search")}
+        />
+        <button className="genre-select">Genre Select</button>
+        <button className="go-button">Go!</button>
+        <a href="/movies" className="topnav-right">
+          Browse All Titles
         </a>
         <a href="/login" className="topnav-right">
           Log In
@@ -16,7 +24,6 @@ const NavBar = (props) => {
         <a href="/account" className="topnav-right">
           My Account
         </a>
-        <button className="topnav-right">Genre Select</button>
         <a href="/cart" className="topnav-right">
           Cart
         </a>

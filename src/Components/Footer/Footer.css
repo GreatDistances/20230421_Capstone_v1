@@ -1,13 +1,14 @@
 
 .footer {
-  position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 100%;
+  position: sticky;
   background-color: #333;
+  opacity: 70%;
   color: white;
   line-height: 66.6%;
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
