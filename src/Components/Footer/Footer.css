@@ -4,11 +4,12 @@
   left: 0;
   width: 100%;
   position: sticky;
-  background-color: #333;
+  background-color: #ddd;
   opacity: 70%;
-  color: white;
+  color: rgb(58, 58, 58);
   line-height: 66.6%;
   text-align: right;
   padding-top: 3px;
   padding-bottom: 3px;
+  filter: drop-shadow(0 0 0.75rem #ddd);
 }

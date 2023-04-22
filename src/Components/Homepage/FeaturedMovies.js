@@ -4,9 +4,7 @@ import "./FeaturedMovies.css";
 const FeaturedMovies = (props) => {
   return (
     <div>
-      <div>
         <h1>Featured Movies</h1>
-      </div>
     </div>
   );
 };

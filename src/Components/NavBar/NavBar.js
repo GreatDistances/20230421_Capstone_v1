@@ -13,10 +13,9 @@ const NavBar = (props) => {
           onFocus={(e) => (e.target.value = "")}
           onBlur={(e) => (e.target.value = "Search")}
         />
-        <button className="genre-select">Genre Select</button>
         <button className="go-button">Go!</button>
         <a href="/movies" className="topnav-right">
-          Browse All Titles
+          Browse All
         </a>
         <a href="/login" className="topnav-right">
           Log In
